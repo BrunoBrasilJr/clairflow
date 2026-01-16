@@ -1,0 +1,70 @@
+/* ==============================
+   AURORA LIGHT — MODERN SIMPLE
+   ============================== */
+
+:root {
+  /* Base */
+  --bg: #fbfcff;
+  --bg-2: #f4f7ff;
+  --bg-3: #eef3ff;
+
+  /* Surfaces */
+  --surface: rgba(255, 255, 255, 0.82);
+  --surface-2: rgba(255, 255, 255, 0.92);
+  --surface-solid: #ffffff;
+
+  /* Borders (soft, no cartoon) */
+  --border: rgba(11, 18, 32, 0.08);
+  --border-2: rgba(11, 18, 32, 0.12);
+
+  /* Text */
+  --text: #0b1220;
+  --text-2: rgba(11, 18, 32, 0.72);
+  --text-3: rgba(11, 18, 32, 0.5);
+
+  /* Brand (modern, not neon) */
+  --primary: #2f7dff;
+  --secondary: #6b5cff;
+  --accent: #16c7b6;
+
+  /* Tints */
+  --ink-10: rgba(11, 18, 32, 0.08);
+  --primary-10: rgba(47, 125, 255, 0.1);
+  --secondary-10: rgba(107, 92, 255, 0.1);
+  --accent-10: rgba(22, 199, 182, 0.1);
+
+  /* Gradients (subtle) */
+  --grad-cta: linear-gradient(135deg, #2f7dff 0%, #6b5cff 55%, #16c7b6 100%);
+  --grad-soft: radial-gradient(
+      900px circle at 12% 12%,
+      rgba(47, 125, 255, 0.14),
+      transparent 62%
+    ),
+    radial-gradient(
+      900px circle at 88% 14%,
+      rgba(107, 92, 255, 0.12),
+      transparent 62%
+    ),
+    radial-gradient(
+      1000px circle at 55% 92%,
+      rgba(22, 199, 182, 0.1),
+      transparent 58%
+    );
+
+  /* Shadows */
+  --shadow-sm: 0 10px 26px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 24px 70px rgba(15, 23, 42, 0.12);
+
+  /* Radius */
+  --r-sm: 12px;
+  --r-md: 18px;
+  --r-lg: 26px;
+
+  /* Motion */
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --dur-1: 150ms;
+  --dur-2: 240ms;
+
+  /* Focus */
+  --ring: 0 0 0 4px rgba(47, 125, 255, 0.18);
+}
