@@ -1,36 +1,126 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ClairFlow ✨
 
-## Getting Started
+Landing page moderna e responsiva para uma **empresa fictícia de SaaS**, criada com foco total em **UI/UX, acessibilidade, microinterações e qualidade visual**.
 
-First, run the development server:
+O projeto simula um produto real, priorizando decisões que seriam tomadas em um ambiente profissional: organização de código, experiência do usuário, fluidez de navegação e atenção aos detalhes.
 
-```bash
+---
+
+## 🔗 Preview
+
+> Rode localmente seguindo as instruções abaixo para visualizar o projeto.
+
+---
+
+## 🎯 Objetivo do Projeto
+
+O **ClairFlow** foi desenvolvido como projeto de portfólio para demonstrar:
+
+- Capacidade de criar **interfaces modernas e funcionais**
+- Atenção a **experiência do usuário (UX)**
+- Uso consciente de animações e microinterações
+- Organização de código e arquitetura front-end
+- Boas práticas com Git (histórico de commits e evolução do projeto)
+
+---
+
+## 🧠 Principais Features
+
+- Navegação suave entre seções (scroll suave)
+- Navbar com animações de hover elegantes
+- Modal de FAQ com foco e blur de fundo
+- Botão “Voltar ao topo” com animação de entrada e saída
+- Scroll restaurado para o topo ao recarregar a página
+- Layout responsivo (mobile-first)
+- UI clara e confortável para os olhos (light mode otimizado)
+- Microinterações e feedback visual em cards e botões
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Next.js (App Router)**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **CSS Variables (Design Tokens)**
+- **Lucide Icons**
+- **Git & GitHub**
+
+> Projeto **100% Front-end**, sem back-end.
+
+---
+
+## 📂 Estrutura do Projeto
+
+src/
+├── app/
+│ ├── (site)/
+│ │ ├── layout.tsx
+│ │ └── page.tsx
+│ ├── globals.css
+│ ├── layout.tsx
+│ └── ScrollRestorationTop.tsx
+│
+├── components/
+│ ├── layout/
+│ ├── sections/
+│ ├── ui/
+│ └── effects/
+│
+├── styles/
+│ └── tokens.css
+│
+└── data/
+
+▶️ Como Rodar Localmente
+Pré-requisitos
+Node.js (versão LTS)
+NPM ou Yarn
+
+Passo a passo
+
+# Clone o repositório
+
+git clone https://github.com/BrunoBrasilJr/clairflow.git
+
+# Acesse a pasta
+
+cd clairflow
+
+# Instale as dependências
+
+npm install
+
+# Rode o projeto
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Abra no navegador:
+👉 http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🧪 Checklist de Qualidade
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Responsividade
+Acessibilidade básica (focus, contraste, navegação)
+Microinterações suaves
+Código organizado e reutilizável
+Histórico de commits preservado
+Projeto pronto para portfólio
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📚 Aprendizados
+Durante o desenvolvimento deste projeto, foi possível aprofundar conhecimentos em:
+Arquitetura do App Router do Next.js
+Design de interfaces claras e acessíveis
+Controle de scroll e navegação fluida
+Uso de tokens de design para consistência visual
+Organização e evolução de um projeto real via Git
 
-## Learn More
+📌 Observações
+Este projeto representa uma empresa fictícia e foi criado exclusivamente para fins educacionais e de portfólio.
 
-To learn more about Next.js, take a look at the following resources:
+👤 Autor
+Bruno Brasil
+Front-end Developer
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GitHub: https://github.com/BrunoBrasilJr
+LinkedIn: https://www.linkedin.com/in/bruno-brasil-2474263a3/
